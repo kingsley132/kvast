@@ -1,0 +1,420 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: sans-serif;
+}
+
+.header{
+	background: url("img/wheat-back.jpg") no-repeat;
+	background-position: 50% -200px;
+	background-size: 1200px 750px;
+
+
+}
+
+.container{
+	width: 800px;
+	margin: 0 auto;
+}
+
+.container-2{
+	width: 1016px;
+	margin: 0 auto;
+}
+
+.container .header-logo{
+position: absolute;
+top: 60px;
+}
+
+.header .container{
+
+}
+
+.header-menu{
+	padding-top: 70px;
+
+}
+.header-menu a{
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+;
+}
+
+.menu-spisok{
+	display:flex;
+	width: 600px;
+	margin-left: 200px;
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.menu-spisok li{
+	height: 15px;
+	padding-right: 55px;
+	padding-top: 20px;
+	padding-bottom: 23px;
+}
+
+.menu-spisok li:last-child{
+	padding-right: 0;
+}
+
+.big_text p{
+	font-size: 70px;
+	font-weight: 700;
+	color: white;
+	line-height: 70px;
+	padding-top: 125px;
+	text-align: center;
+	padding-bottom: 155px;
+	
+}
+
+.new h2{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 40px;
+	margin-top: 90px;
+	padding-bottom: 90px;
+}
+.new-item{
+display: flex;
+}
+
+.new-item-header h3{
+text-transform: uppercase;
+font-weight: bold;
+font-size: 40px;
+padding-bottom: 35px;
+}
+
+.new{
+	margin-bottom: 110px;
+}
+.new table{
+		border-collapse: collapse;
+		box-sizing: border-box;
+		width: 150px;
+		height: 85px;
+
+
+}
+.new td{
+	font-weight: bold;
+	border: 1px solid #e5e5e5;
+	padding: 10px 11px;
+	text-align: left;
+	font-size: 16px;
+	color: black;
+
+}
+.new-item-header{
+	border-left: 1px solid #e5e5e5;
+
+		position: relative;
+		width: 400px;
+
+}
+
+.new-item-header:last-child{
+	border-right: 1px solid #e5e5e5;
+}
+
+.new-item-header img{
+	position: absolute;
+	left: 44px;
+	z-index: -5;
+	top: 90px;
+
+}
+
+.new-item-header h3{
+	padding-left: 30px;
+	padding-top: 9px;
+}
+
+
+
+.table-info{
+	margin-left: 220px;
+
+}
+
+.table-info p{
+	text-align: left;
+	padding-top: 10px;
+		padding-bottom: 340px;
+}
+
+.description{
+	font-size: 16px;
+	color: #404040;
+	line-height: 30px;
+	margin-top: 0;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 335px;
+	margin-bottom: 65px;
+}
+
+
+.btn-more{
+	border: 2px solid #834700;
+	padding: 15px 23px;
+	margin-left: 30px;
+	margin-right: 7px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #834700;
+	text-transform: uppercase;
+}
+
+.btn-buy{
+	background-color: #834700;
+	padding: 16px 23px;
+	font-weight: bold;
+	font-size: 16px;
+	margin-right: 20px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.btn-more:hover{
+	color: #6a3900;
+	border-color: #6a3900;
+}
+
+.btn-buy:hover{
+background-color: #6a3900;
+}
+
+.btn-buy:active{
+color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-more:active{
+	opacity: 0.3;
+}
+
+.features{
+	background-color: #ffcb78;
+}
+
+.features .container-2 ul{
+	display: flex;
+	padding-top: 80px;
+	padding-bottom: 95px;
+}
+
+.features-item{
+	display: flex;
+	flex-direction: column;
+}
+
+.features-item p{
+	color: #404040;
+	font-size: 16px;
+	line-height: 30px;
+	padding-top: 20px;
+}
+
+.features-item h2{
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.features-item img{
+	padding-bottom: 35px;
+}
+
+.features-item:nth-child(1){
+	padding-right: 55px;
+	border-right: 1px solid #e5b66c;
+
+}
+
+.features-item:nth-child(2){
+	padding-right: 55px;
+	margin-left: 95px;
+	border-right: 1px solid #e5b66c;
+}
+
+.features-item:nth-child(3){
+	padding-right: 55px;
+	padding-left: 55px;
+}
+
+.history{
+padding-bottom: 80px;
+}
+
+.history h2{
+	color: #000000;
+	line-height: 61px;
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 75px;
+}
+
+.history-item{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.history-item-top{
+	display: flex;
+	margin-top: 70px;
+	justify-content: space-between;
+}
+
+.history-item-top span {
+font-size: 20px;
+font-weight: bold;
+color: #000000;
+text-transform: uppercase;
+}
+
+.history-item-bottom{
+		display: flex;
+		flex-direction: row-reverse;
+	justify-content: space-between;
+
+}
+
+.history-item-bottom p{
+	width: 500px;
+	padding-top: 11px;
+	font-size: 16px;
+	line-height: 30px;
+	color: #404040;
+}
+
+.history-item-bottom img{
+	padding-top: 15px;
+}
+
+.history-item-source{
+	font-style: italic;
+}
+.history-item-source a{
+	color: #834700;
+	text-decoration: underline;
+}
+
+.news{
+	background-color: #ede5d8;
+	padding-bottom: 85px;
+}
+
+.news h2{
+	color: #000000;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 40px;
+	padding-top: 85px;
+	padding-bottom: 85px;
+}
+
+.news-items{
+	position: relative;
+}
+.news-items img{
+	position: absolute;
+	left: -100px;
+	top: 5px;
+}
+
+blockquote{
+
+			color: #404040;
+	font-size: 16px;
+	line-height: 30px;
+	width: 690px;
+}
+
+.news-wrapper{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+
+.btn-next{
+	border: 2px solid #000000;
+	color: #000000;
+	opacity: 0.3;
+	padding: 10px 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 20px;
+	margin-top: 40px;
+}
+
+.news-wrapper cite{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+	margin-top: 50px;
+}
+
+.product-line h2{
+color: #000000;
+font-weight: bold;
+font-size: 40px;
+margin-top: 80px;
+margin-bottom: 80px;
+}
+
+.product-line tr td:first-of-type{
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.product-line tr:first-child{
+	color: #999999;
+	text-transform: uppercase;
+	font-size: 11px;
+	text-align: left;
+}
+
+.product-line sup{
+	font-size: 8px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: black;
+	padding: 1px 3px;
+	border-radius: 2px;
+	display: inline-block;
+
+}
+
+.product-line th:last-child{
+	text-align: right;
+}
+
+.product-line td:nth-of-type(5){
+	text-align: right;
+}
+
+.product-line td:nth-child(1n+1){
+	color: #404040;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.product-line td{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.product-line table{
+		border-collapse: collapse;
+}
